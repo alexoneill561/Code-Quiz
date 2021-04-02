@@ -9,8 +9,8 @@
     <title>Code Quiz</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a href="#" id="highscores-link" class="navbar-text float-left">High Scores</a>
+    <nav class="navbar navbar-light bg-primary">
+        <a href="#" id="lastscores" class="navbar-text float-left">High Scores</a>
         <span class="navbar-text float-right">Time: <span id="timer">0</span></span>
     </nav>
     <div id="container" class="start-page mt-5">
@@ -24,19 +24,19 @@
         </p>
         <button aria-label="start-game" id="start-button" class="button">Start Game</button>
         <div id="quiz-answers">
-            <button class="answer-button"></button>
-            <button class="answer-button"></button>
-            <button class="answer-button"></button>
-            <button class="answer-button"></button>
+            <button class="answerbtn"></button>
+            <button class="answerbtn"></button>
+            <button class="answerbtn"></button>
+            <button class="answerbtn"></button>
         </div>
-        <div id="input-field">
+        <div id="input">
             <label for="name">Add Name:</label>
 
             <input type="text" name="name" id="name" placeholder="Alex ONeill" />
 
-            <button id="submit-button">Submit</button>
+            <button id="submit">Submit</button>
         </div>
-        <div id="answer-message"></div>
+        <div id="answers"></div>
     </div>
 
     <div id="endGameBtns">
